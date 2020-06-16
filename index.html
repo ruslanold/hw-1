@@ -5,6 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>VIKINGS</title>
+    <style>
+        body {
+   background-image: url(https://4kwallpaper.wiki/wp-content/uploads/2019/09/361944.jpg);
+   background-attachment: fixed;
+   font-size: 18px;
+   color: silver;
+}
+.main{
+   width: 100%;
+   height: 100%;
+   text-align: center;
+}
+.actors {
+   border-bottom: 10px solid #fff;
+}
+.container {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   perspective: 700px;
+   margin-left: 800px;
+   margin-bottom: 40px;
+}
+.cube {
+   width: inherit;
+   height: inherit;
+   transform-style: preserve-3d;
+}
+.side {
+   position: absolute;
+   width: inherit;
+   height: inherit;
+   border: 5px solid #eeeeee;
+   text-align: center;
+}
+.front {
+  transform: translateZ(100px)
+}
+.right {
+   transform: rotateY(50deg) translateZ(135px);
+}
+.left {
+   transform: rotateY(-50deg) translateZ(135px);
+  }
+    </style>
 </head>
 <body>
     <div class="main">
